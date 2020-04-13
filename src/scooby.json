@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Scooby-Doo",
+    "image": "../../../../../../images/scooby_doo.png",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "name": "Shaggy Rogers",
+    "image": "./public/images/shaggy_rogers.png",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "name": "Fred Jones",
+    "image": "./public/images/fred_jones.png",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "name": "Daphne Blake",
+    "image": "./public/images/daphne_blake.png",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "name": "Velma Dinkley",
+    "image": "./public/images/Velma_Dinkley.png",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "name": "Black Knight",
+    "image": "./public/images/Black_Knight.png",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "name": "Phantom",
+    "image": "./public/images/phantom.png",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "name": "Miner Forty-Niner",
+    "image": "./public/images/Miner_Forty-Niner.png",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "name": "Snow Ghost",
+    "image": "./public/images/snow_ghost",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "name": "Wax Phantom",
+    "image": "./public/images/Wax_Phantom.png",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "name": "Mummy of Anka",
+    "image": "./public/images/Mummy_of_Ankha.png",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "name": "Ghost Clown",
+    "image": "./public/images/Ghost_Clown.png",
+    "clicked": false
+  }
+]
