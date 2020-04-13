@@ -1,4 +1,5 @@
 import React from "react";
+// import image from "../../images";
 import "./style.css";
 
 function Card(props) {
@@ -10,7 +11,7 @@ function Card(props) {
       data-id={props.id}
     >
       <div className="img-container">
-        <img src={props.image} className="card-img" alt={props.name} />
+        <img src={process.env.PUBLIC_URL + props.image} className="card-img" alt={props.name} />
       </div>
     </div>
   );
