@@ -7,7 +7,7 @@ import "./style.css";
 
 class Body extends Component {
   state = {
-    scooby: scooby,
+    scooby,
     score: 0,
     bestScore: 0,
   };
@@ -17,16 +17,25 @@ class Body extends Component {
     return arr;
   };
 
-  handleClick = (id, chosen) => {
-    let clicked = this.state.scooby.map((character) => {
-      if (character.id === id) {
-        character.clicked = true;
-      }
-      return character;
-    });
-    console.table(clicked);
-    let scoobyChars = this.shuffle(clicked);
-    this.setState({ scooby: scoobyChars });
+  handleClick = (id, bool) => {
+    console.log(bool);
+    if (bool) {
+      // restart game and send message
+      return;
+    } else {
+      // create a new array with the clicked character.clicked changed to true
+      let newScooby = this.state.scooby.map((character) => {
+        if (character.id === id) {
+          character.clicked = true;
+        }
+        return character;
+      });
+
+      newScooby = this.shuffle(newScooby);
+      let newScore = this.state.score + 1;
+      let newBestScore = this.state.bestScore + 1;
+      this.setState({ scooby: newScooby, score: newScore, bestScore: newBestScore });
+    }
   };
 
   render() {
