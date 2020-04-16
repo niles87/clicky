@@ -1,3 +1,11 @@
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
 #navbar {
-  background-image: linear-gradient(purple, violet, indigo);
+  background-image: linear-gradient(blue, lightblue, navy);
 }
