@@ -1,0 +1,41 @@
+.jumbo-wrapper {
+  max-width: 960px;
+  height: 275px;
+  margin: 0 auto;
+  position: relative;
+  background-image: linear-gradient(45deg, #157fbd, #4e91b8, #e97e03, #bb6402, #4ba137, #3e862e);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h3 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  color: #fff;
+}
+
+@media screen and (max-width: 515px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .jumbo-wrapper {
+    height: 175px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .jumbo-wrapper {
+    margin-top: 50px;
+  }
+}
