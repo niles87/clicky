@@ -3,7 +3,7 @@
 <p align="center">
 <img src="./images/clicky.png">
 
-<img src="./images/walkthrough.png">
+<img src="./images/walkthrough.gif">
 </p>
 
 ## Overview
